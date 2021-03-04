@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatternsExamples", "DesingPatternsExamples\DesingPatternsExamples.csproj", "{6EEAB4F8-430B-44FA-9EA9-7AB1964D3A66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{664868CD-EB0E-4A52-9D7B-E4FCC894951F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.State", "Behavioral.State\Behavioral.State.csproj", "{2B632874-E654-4AC7-A7C3-47C5DA143835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{6EEAB4F8-430B-44FA-9EA9-7AB1964D3A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EEAB4F8-430B-44FA-9EA9-7AB1964D3A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EEAB4F8-430B-44FA-9EA9-7AB1964D3A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B632874-E654-4AC7-A7C3-47C5DA143835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B632874-E654-4AC7-A7C3-47C5DA143835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B632874-E654-4AC7-A7C3-47C5DA143835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B632874-E654-4AC7-A7C3-47C5DA143835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B632874-E654-4AC7-A7C3-47C5DA143835} = {664868CD-EB0E-4A52-9D7B-E4FCC894951F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7667CE03-9A0B-4E23-83A8-EEB3904E2244}
