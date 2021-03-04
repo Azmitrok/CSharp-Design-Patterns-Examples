@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace Behavioral.State
 {
     [Serializable]
-    internal class InvoiceStateException : Exception
+    public class InvoiceStateException : Exception
     {
         public InvoiceStateException()
         {
