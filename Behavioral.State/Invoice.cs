@@ -7,14 +7,12 @@ namespace Behavioral.State
     public class Invoice
     {
         private IState state;
-
+        internal List<InvoiceLine> invoiceLines { get; set; }
         public Invoice()
         {
             state = new DraftState();
             invoiceLines = new List<InvoiceLine>();
-        }
-
-        internal List<InvoiceLine> invoiceLines { get; set; }
+        }        
 
         public void AddLine(InvoiceLine line)
         {
