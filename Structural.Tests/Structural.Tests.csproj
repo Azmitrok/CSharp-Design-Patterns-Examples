@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Structural.Decorator\Structural.Decorator.csproj" />
+    <ProjectReference Include="..\Structural.Facade\Structural.Facade.csproj" />
   </ItemGroup>
 
 </Project>
